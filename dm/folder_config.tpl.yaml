@@ -1,0 +1,13 @@
+imports:
+    - path: ./templates/folders.py
+      name: folders.py
+
+resources:
+  - name: __NAME__
+    type: folders.py
+    properties:
+      owners:
+        - __OWNER__
+      parent_node:
+        type: organization
+        id: __ORG__

@@ -1,0 +1,16 @@
+imports:
+    - path: .templates/app.py
+      name: app.py
+
+resources:
+    - name: __NAME__
+      type: app.py
+      properties:
+        owners:
+          - __OWNER__
+        root_node: __ROOT_ID__
+        dev_node: __DEV_ID__
+        prd_node: __PRD_ID__
+        billing_account_id: 010FAB-0BB731-1EBA39
+        use_network_project: __USE_NETWORK_PROJECT__
+        

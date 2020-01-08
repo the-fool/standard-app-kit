@@ -1,0 +1,26 @@
+info:
+    title: Application
+    author: Google, LLC
+
+required:
+    - billing_account_id
+    - root_node
+    - dev_node
+    - prd_node
+    
+properties:
+    billing_account_id:
+        type: string
+
+    root_node:
+        type: integer
+
+    dev_node:
+        type: integer
+
+    prd_node:
+        type: integer
+
+    use_network_project:
+        type: boolean
+        default: true
